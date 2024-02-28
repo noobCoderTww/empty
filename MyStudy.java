@@ -5,6 +5,7 @@ public class MyStudy {
         Runnable runnable = new MyRunnable();
         new Thread(runnable).start();
         var name = "tan";
+         System.out.println(name + " age:18");
     }
 
     private static class MyRunnable implements Runnable {
